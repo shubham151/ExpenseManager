@@ -1,4 +1,5 @@
 import ExpenceItem from "./ExpenceItem";
+import '../css/Expense.css'
 
 function Expense(props) {
   let data = [];
@@ -11,7 +12,7 @@ function Expense(props) {
         amount={expense[itr].amount}
         date={expense[itr].date}
       >
-      </ExpenceItem>
+      </ExpenceItem> 
     );
   }
   return data;
